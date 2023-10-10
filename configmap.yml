@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata: 
+ name: mysql-configmap
+ namespace: mysql
+ labels:
+   app: msql
+
+data:
+ MYSQL_DATABASE: "employee_db"  
